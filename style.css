@@ -4,12 +4,13 @@
 /* body Common style */
 body{
     margin: 0;
+    background: #FFFFFF;
     font-family: 'Poppins', sans-serif;
 }
 /* header style started */
 
 header{
-    position: absolute; 
+     
     left:40px;
     right: 10px;
     background: #161616;
@@ -34,5 +35,32 @@ header{
 
 h2,p{
     color: white;
+}
+/* Main Section Started */
+.nav-style{
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(1,fr);
+}
+.nav-container{
+    width: 250px;
+    height: 220px;
+    background-color: #161616;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+    margin-left: 150px;
+}
+.nav-style a{
+    text-decoration: none;
+    background: #FFFFFF;
+    margin-top: ;
+    border-radius: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    padding: 2px;
+    width: 220px;
+    font-size: 20px;
+    color: black;
 }
 
