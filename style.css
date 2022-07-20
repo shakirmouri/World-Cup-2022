@@ -1,0 +1,37 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@100&family=Source+Sans+Pro:ital@1&display=swap');
+
+/* body Common style */
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+/* header style started */
+
+header{
+    position: absolute; 
+    left:40px;
+    right: 10px;
+    background: #161616;
+    border-radius: 30px;
+}
+.header-content{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 70px;
+} 
+.header-info  h1 a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.header-image img{
+    width: 60%;
+}
+
+h2,p{
+    color: white;
+}
+
