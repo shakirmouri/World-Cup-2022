@@ -10,7 +10,7 @@ body{
 /* header style started */
 
 header{
-     
+    margin: 5px; 
     left:40px;
     right: 10px;
     background: #161616;
@@ -33,10 +33,17 @@ header{
     height: 100%;
 }
 
-h2,p{
+h2,.slogan{
     color: white;
 }
 /* Main Section Started */
+.main-area{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
 .nav-style{
     margin-top: 10px;
     display: grid;
@@ -49,12 +56,12 @@ h2,p{
     background-color: #161616;
     border-radius: 10px;
     /* border: 1px solid green; */
-    margin-left: 150px;
+    margin-left: 5px;
 }
 .nav-style a{
     text-decoration: none;
     background: #FFFFFF;
-    margin-top: ;
+    margin-top: 10px;
     border-radius: 10px;
     margin: 10px 10px;
     text-align: center;
@@ -63,4 +70,43 @@ h2,p{
     font-size: 20px;
     color: black;
 }
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+.blog{
+    width: 312px;
+    height: 362px;
+}
+.blog .thumbnail img{
+    width: 312px;
+    height: 175px;
+}
+a.blog-button{
+    text-decoration: none;
+    width: 100px;
+    height: 32px;
+    padding: 0px 2px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.blog-title{
+    width: 272px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+i.fa-clock{
+    width: 24px;
+    height: 24px;
+    color: rgba(22, 22, 22, 0.7);
+    margin-right: 2px;
+}
+i.fa-message{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
 
