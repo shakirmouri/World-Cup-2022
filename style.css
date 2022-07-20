@@ -3,7 +3,7 @@
 
 /* body Common style */
 body{
-    
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 /* header style started */
@@ -29,6 +29,7 @@ header{
 }
 .header-image img{
     width: 60%;
+    height: 100%;
 }
 
 h2,p{
