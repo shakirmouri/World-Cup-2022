@@ -15,6 +15,7 @@ header{
     right: 10px;
     background: #161616;
     border-radius: 30px;
+    margin-bottom: 50px;
 }
 .header-content{
     display:grid;
@@ -108,4 +109,37 @@ i.fa-message{
     margin-right: 5px;
 }
 
+/* footer styles start */
+.footer-cntainer{
+    width: 100%;
+    background-color: #161616;
+    height: 300px;
+}
+.footer-text{
 
+   color: #FFFFFF;
+    margin-left: 550px;
+    display: inline-block;
+    margin-top: 80px;
+}
+hr{
+   
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.footer-link{
+    width: 80%;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
