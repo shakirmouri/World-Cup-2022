@@ -143,3 +143,9 @@ hr{
     font-weight: 600;
     font-size: 14px;
 }
+.social-midea{
+    color: #FFFFFF;
+    display: flex;
+    justify-content:center;
+    column-gap: 70px;
+}
