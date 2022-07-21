@@ -156,3 +156,20 @@ hr{
     justify-content:center;
     column-gap: 70px;
 }
+
+/* ....................
+      Media Queries 
+........................*/
+/* ......................
+      Mobile Devices
+......................... */
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+    }
+    .header-content{
+        background-color: blue;
+        grid-template-columns: repeat(1,1fr);
+    }
+     }
+    

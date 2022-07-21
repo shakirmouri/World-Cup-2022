@@ -76,13 +76,13 @@ h2,.slogan{
     font-size: 20px;
     color: black;
 }
-.blogs{
+.fixture{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 10px;
 }
-.blog{
+.matches{
     width: 312px;
     height: 170px;
     padding: 5px;
@@ -92,7 +92,7 @@ h2,.slogan{
 .thumbnail{
     display: flex;
 }
-.blog .thumbnail img{
+.matches .thumbnail img{
     width: 130px;
     height: 80px;
 }
