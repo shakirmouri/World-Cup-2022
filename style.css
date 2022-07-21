@@ -168,7 +168,6 @@ hr{
         width: 100%;
     }
     .header-content{
-        background-color: blue;
         grid-template-columns: repeat(1,1fr);
     }
      }
