@@ -50,10 +50,10 @@ h2,.slogan{
     gap: 10px;
     grid-template-rows: repeat(1,fr);
 }
-.nav-style .match:hover{
+.nav-container .match{
     background-color: blue;
 }
-.nav-style .nav-blog{
+.nav-style .nav-blog:hover{
     background-color: darkgreen;
 }
 .nav-container{
@@ -80,40 +80,21 @@ h2,.slogan{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
+    row-gap: 10px;
 }
 .blog{
     width: 312px;
-    height: 362px;
-}
-
-.blog .thumbnail img{
-    width: 312px;
-    height: 175px;
-}
-a.blog-button{
-    text-decoration: none;
-    width: 100px;
-    height: 32px;
-    padding: 0px 2px;
+    height: 170px;
+    padding: 5px;
+    border: 1px solid grey;
     border-radius: 5px;
-    border: 1px solid gray;
 }
-.blog-title{
-    width: 272px;
-    height: 54px;
-    font-weight: 600;
-    font-size: 18px;
+.thumbnail{
+    display: flex;
 }
-
-i.fa-clock{
-    width: 24px;
-    height: 24px;
-    color: rgba(22, 22, 22, 0.7);
-    margin-right: 2px;
-}
-i.fa-message{
-    margin-left: 30px;
-    margin-right: 5px;
+.blog .thumbnail img{
+    width: 130px;
+    height: 80px;
 }
 
 /* footer styles start */
@@ -121,6 +102,7 @@ i.fa-message{
     width: 100%;
     background-color: #161616;
     height: 300px;
+    margin-top: 20px;
 }
 .footer-text{
 
